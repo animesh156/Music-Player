@@ -54,7 +54,7 @@ id:5
 {
   title: "Cheap Thrills",
 singer: "Sia",
-audio: "/public/songs/chip.mp3",
+audio: "songs/chip.mp3",
 cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY0nPxFt6pc__7udTQI2I63ROaZtGSPtvieg&s",
 id:6
 }
