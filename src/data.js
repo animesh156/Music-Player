@@ -4,7 +4,7 @@
     {
       title: "Him & I",
       singer: "G Eazy",
-      audio:"https://github.com/animesh156/Music-Player/blob/main/public/songs/Him.mp3",
+      audio:"songs/Him.mp3",
       cover: "https://i.scdn.co/image/ab67616d0000b273046527a9c176f7c2916f3530",
       id:0
     },
