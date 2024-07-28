@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Player from "./components/Player";
 
 import { useEffect, useRef, useState } from "react";
-import songsData from "./songs/data.js";
+import songsData from "./data";
 
 function App() {
   const [songs, setSong] = useState(songsData);

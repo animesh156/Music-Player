@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import songsData from "../songs/data";
+import songsData from "../data";
 
 function Header({
   showList,
