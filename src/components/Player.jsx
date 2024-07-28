@@ -1,18 +1,17 @@
 /* eslint-disable react/no-unknown-property */
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function Player({
   audioElm,
-  curMin,
-  curSec,
-  totalMin,
-  totalSec,
   isPlaying,
   setIsPlaying,
   currentSong,
   setCurrentSong,
   songs,
+  onPlaying,
+  curTime,
+  totalTime,
 }) {
   const clickRef = useRef();
 
@@ -39,7 +38,7 @@ function Player({
   };
 
   const skipNext = () => {
-    const index = songs.findIndex((x) => x.title == currentSong.title);
+    const index = songs.findIndex((x) => x.title === currentSong.title);
     if (index == songs.length - 1) {
       setCurrentSong(songs[0]);
     } else {
@@ -59,9 +58,9 @@ function Player({
       <div
         w-72
         mt-10
-        rounded-3xl
+        rounded-3xl="true"
         h-full
-        bg-slate-300
+        bg-white
         border
         border-gray-200
         shadow
@@ -108,12 +107,8 @@ function Player({
           </div>
 
           <div class="flex justify-between  text-xs mb-10 text-gray-600">
-            <span>
-              {curMin}:{curSec}
-            </span>
-            <span>
-              {totalMin}:{totalSec}
-            </span>
+            <span>{curTime}</span>
+            <span>{totalTime}</span>
           </div>
         </div>
       </div>
