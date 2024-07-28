@@ -106,7 +106,7 @@ function Player({
             </div>
           </div>
 
-          <div class="flex justify-between  text-xs mb-10 text-gray-600">
+          <div class="flex justify-between  text-xs mb-10 dark:text-red-500 text-red-600">
             <span>{curTime}</span>
             <span>{totalTime}</span>
           </div>
