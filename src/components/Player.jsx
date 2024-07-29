@@ -136,7 +136,7 @@ function Player({
           <button
             type="button"
             onClick={PlayPause}
-            className="text-white bg-orange-500   focus:outline-none  font-medium rounded-full text-sm p-3.5 text-center inline-flex items-center me-2 dark:bg-orange-500 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="text-white bg-orange-500   focus:outline-none  font-medium rounded-full text-sm p-3.5 text-center inline-flex items-center me-2 dark:bg-orange-500 "
           >
             <svg
               fill="#000000"
