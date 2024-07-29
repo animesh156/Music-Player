@@ -106,7 +106,7 @@ function Player({
             </div>
           </div>
 
-          <div class="flex justify-between  text-xs mb-10 text-gray-600">
+          <div class="flex justify-between  text-xs mb-10 dark:text-red-500">
             <span>{curTime}</span>
             <span>{totalTime}</span>
           </div>
@@ -117,7 +117,7 @@ function Player({
         <button
           onClick={skipBack}
           type="button"
-          className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 bg-gradient-to-r from-cyan-400 to-red-500 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-3.5 text-center inline-flex items-center me-2 dark:bg-slate-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          className="text-white bg-gradient-to-r from-cyan-400 to-red-500 focus:outline-none  font-medium rounded-full text-sm p-3.5 text-center inline-flex items-center me-2 "
         >
           <svg
             fill="#000000"
@@ -136,7 +136,7 @@ function Player({
           <button
             type="button"
             onClick={PlayPause}
-            className="text-white bg-orange-500  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-3.5 text-center inline-flex items-center me-2 dark:bg-orange-500 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="text-white bg-orange-500   focus:outline-none  font-medium rounded-full text-sm p-3.5 text-center inline-flex items-center me-2 dark:bg-orange-500 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             <svg
               fill="#000000"
@@ -144,9 +144,9 @@ function Player({
               version="1.1"
               id="Capa_1"
               xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
               viewBox="0 0 17.804 17.804"
-              xml:space="preserve"
+              xmlSpace="preserve"
             >
               <g>
                 <g id="c98_play">
@@ -165,17 +165,17 @@ function Player({
           <button
             type="button"
             onClick={PlayPause}
-            className="text-white bg-orange-500  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-3.5 text-center inline-flex items-center me-2 dark:bg-orange-500 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="text-white bg-orange-500 hover:bg-orange-400  focus:ring-4 focus:outline-none  font-medium rounded-full text-sm p-3.5 text-center inline-flex items-center me-2 dark:bg-orange-500 dark:hover:bg-orange-400 "
           >
             <svg
               fill="#000000"
               version="1.1"
               id="Capa_1"
               xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
               className="h-4 w-4"
               viewBox="0 0 277.338 277.338"
-              xml:space="preserve"
+              xmlSpace="preserve"
             >
               <g>
                 <path
@@ -194,7 +194,7 @@ function Player({
         <button
           type="button"
           onClick={skipNext}
-          className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none bg-gradient-to-r from-cyan-400 to-red-500 focus:ring-blue-300 font-medium rounded-full text-sm p-3.5 text-center inline-flex items-center me-2 dark:bg-slate-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          className="text-white  focus:outline-none bg-gradient-to-r from-cyan-400 to-red-500  font-medium rounded-full text-sm p-3.5 text-center inline-flex items-center me-2  "
         >
           <svg
             fill="#000000"
