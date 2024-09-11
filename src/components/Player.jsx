@@ -48,10 +48,31 @@ function Player({
     audioElm.current.play();
   };
 
-  useEffect(() => {
-    if (isPlaying) audioElm.current.play();
-    else audioElm.current.pause();
-  }, [skipNext, skipBack]);
+  // useEffect(() => {
+  //   if (isPlaying) audioElm.current.play();
+  //   else audioElm.current.pause();
+  // }, [skipNext, skipBack]);
+
+	 useEffect(() => {
+    // Play or pause the audio element when isPlaying changes
+    if (isPlaying) {
+      audioElm.current.play();
+    } else {
+      audioElm.current.pause();
+    }
+
+    // Listen for when the song ends and play the next song automatically
+    const handleSongEnd = () => {
+      skipNext();
+    };
+
+    audioElm.current.addEventListener("ended", handleSongEnd);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      audioElm.current.removeEventListener("ended", handleSongEnd);
+    };
+  }, [isPlaying, currentSong]);
 
   return (
     <>
