@@ -1,6 +1,3 @@
-body {
-    background: linear-gradient(to right, hotpink, cyan);
-}
 
 
 .navigation{
@@ -10,15 +7,15 @@ body {
     .navigation_wrapper
     {
         min-width: 100%;
-        background-color: rgba(119, 119, 119, 0.781);
+        background-color: rgba(14, 13, 13, 0.781);
         height: 8px;
         border-radius: 30px;
         cursor: pointer;
         
         .seek_bar{
             width: 0;
-            height: 100%;
-            background-color: rgb(24, 128, 3);
+            height: 90%;
+            background-color: rgb(30, 179, 238);
             border-radius: 30px;
         }
 
