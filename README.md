@@ -15,6 +15,7 @@
 <li>React Hooks: For managing state and side effects.</li>
 <li>Styled Components: For styling and responsive design.</li>
 <li>HTML5 Audio API: For managing and controlling audio playback</li>
+<br>
 
 ![Screenshot (74)](https://github.com/user-attachments/assets/96660611-3ec2-40a7-a2e2-a5b540ed67c7)
 ![Screenshot (73)](https://github.com/user-attachments/assets/771ebf56-13e7-4e74-969b-6b515e966c38)
